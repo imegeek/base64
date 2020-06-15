@@ -8,5 +8,5 @@
 
 ```
 git clone https://github.com/abhackerofficial/base64 &&
-cd base64 && chmod +x base.64 && mv base.64 $PREFIX/usr/share && cd $PREFIX/usr/share && mv base.64 $PREFIX/usr/bin &&
+cd base64 && chmod +x base.64 && mv base.64 $PREFIX/share && cd $PREFIX/share && mv base.64 $PREFIX/bin &&
 ./base64
