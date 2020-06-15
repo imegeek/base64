@@ -7,6 +7,5 @@
 ### • Quick [bin] Installation:
 
 ```
-git clone https://github.com/abhackerofficial/base64 &&
-cd base64 && chmod +x base.64 && mv base.64 $PREFIX/share && cd $PREFIX/share && mv base.64 $PREFIX/bin && $HOME &&
+git clone https://github.com/abhackerofficial/base64 && cd base64 && chmod +x base.64 && mv base.64 $PREFIX/share && cd $PREFIX/share && mv base.64 $PREFIX/bin && $HOME && rm -rf base64 &&
 base.64 #copy full command
