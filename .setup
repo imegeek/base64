@@ -20,7 +20,9 @@ cd base64 && chmod +x base.64 && mv base.64 $PREFIX/share && cd $PREFIX/share &&
 if [ -f '/data/data/com.termux/files/home/.setup' ];then
 rm .setup > /dev/null 2>&1
 fi
+sleep 1
 echo -e $G"[*] Setup Completed."
+sleep 1
 echo
 echo -e $Y"[*] Now You Can Run This Program By Just typing 'base.64'"
 echo
