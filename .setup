@@ -1,3 +1,25 @@
-git clone https://github.com/abhackerofficial/base64 && cd base64 && chmod +x base.64 && mv base.64 $PREFIX/share && cd $PREFIX/share && mv base.64 $PREFIX/bin && cd $HOME && rm -rf base64 &&
-rm .setup
-base.64 #copy full command
+#!/data/data/com.termux/files/usr/bin/bash
+
+## Author : ABHacker Official
+
+#colors
+R='\033[1;31m'
+B='\033[1;34m'
+C='\033[0;36m'
+G='\033[1;32m'
+W='\033[1;37m'
+Y='\033[1;33m'
+
+echo -e $G"[*] Installing base64..."
+echo
+echo -e $Y"[*] Setting Up The Program..."
+echo
+git clone https://github.com/abhackerofficial/base64 > /dev/null 2>&1
+cd base64 && chmod +x base.64 && mv base.64 $PREFIX/share && cd $PREFIX/share && mv base.64 $PREFIX/bin && cd $HOME && rm -rf base64 &&
+if [ -f '/data/data/com.termux/files/home/.setup' ];then
+rm .setup > /dev/null 2>&1
+fi
+echo -e $G"[*] Setup Completed."
+echo
+echo -e $Y"[*] Now You Can Run This Program By Just typing 'base.64'"
+echo
