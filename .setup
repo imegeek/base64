@@ -10,6 +10,7 @@ G='\033[1;32m'
 W='\033[1;37m'
 Y='\033[1;33m'
 
+echo
 echo -e $G"[*] Installing base64..."
 echo
 echo -e $Y"[*] Setting Up The Program..."
