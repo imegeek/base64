@@ -4,7 +4,7 @@
 #
 
 ![base64](https://user-images.githubusercontent.com/63346676/84689658-eb701800-af5e-11ea-8cdd-aeb7e9825cca.jpg)
-### • Quick [bin] Installation:
+### • Quick Installation:
 
 ```
 # wget ~
@@ -14,3 +14,5 @@ bash .setup #copy full command
 # git clone ~
 git clone https://github.com/abhackerofficial/base64 && cd base64 && chmod +x base.64 && mv base.64 $PREFIX/share && cd $PREFIX/share && mv base.64 $PREFIX/bin && cd $HOME && rm -rf base64 &&
 base.64 #copy full command
+```
+#
